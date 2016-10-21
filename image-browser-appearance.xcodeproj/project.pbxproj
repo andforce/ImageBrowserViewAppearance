@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		533D83681CE4E9CD00F3FBE6 /* ImageBrowserBackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 533D83601CE4E9CD00F3FBE6 /* ImageBrowserBackgroundLayer.m */; };
+		533D83691CE4E9CD00F3FBE6 /* ImageBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 533D83621CE4E9CD00F3FBE6 /* ImageBrowserCell.m */; };
+		533D836A1CE4E9CD00F3FBE6 /* ImageBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 533D83641CE4E9CD00F3FBE6 /* ImageBrowserController.m */; };
+		533D836B1CE4E9CD00F3FBE6 /* ImageBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 533D83661CE4E9CD00F3FBE6 /* ImageBrowserView.m */; };
+		533D836C1CE4E9CD00F3FBE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 533D83671CE4E9CD00F3FBE6 /* main.m */; };
+		533D83711CE4E9E100F3FBE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 533D836D1CE4E9E100F3FBE6 /* InfoPlist.strings */; };
+		538A7A341CE4E86100BD6C9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538A7A331CE4E86100BD6C9E /* Images.xcassets */; };
+		53A2C82D1CE50AA200C11072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53A2C82B1CE50AA200C11072 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5338A1391CE3B083007946B9 /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
+		533D835F1CE4E9CD00F3FBE6 /* ImageBrowserBackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageBrowserBackgroundLayer.h; path = ImageBrowserAppearance/ImageBrowserBackgroundLayer.h; sourceTree = "<group>"; };
+		533D83601CE4E9CD00F3FBE6 /* ImageBrowserBackgroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageBrowserBackgroundLayer.m; path = ImageBrowserAppearance/ImageBrowserBackgroundLayer.m; sourceTree = "<group>"; };
+		533D83611CE4E9CD00F3FBE6 /* ImageBrowserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageBrowserCell.h; path = ImageBrowserAppearance/ImageBrowserCell.h; sourceTree = "<group>"; };
+		533D83621CE4E9CD00F3FBE6 /* ImageBrowserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageBrowserCell.m; path = ImageBrowserAppearance/ImageBrowserCell.m; sourceTree = "<group>"; };
+		533D83631CE4E9CD00F3FBE6 /* ImageBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageBrowserController.h; path = ImageBrowserAppearance/ImageBrowserController.h; sourceTree = "<group>"; };
+		533D83641CE4E9CD00F3FBE6 /* ImageBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageBrowserController.m; path = ImageBrowserAppearance/ImageBrowserController.m; sourceTree = "<group>"; };
+		533D83651CE4E9CD00F3FBE6 /* ImageBrowserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageBrowserView.h; path = ImageBrowserAppearance/ImageBrowserView.h; sourceTree = "<group>"; };
+		533D83661CE4E9CD00F3FBE6 /* ImageBrowserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageBrowserView.m; path = ImageBrowserAppearance/ImageBrowserView.m; sourceTree = "<group>"; };
+		533D83671CE4E9CD00F3FBE6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ImageBrowserAppearance/main.m; sourceTree = "<group>"; };
+		533D836E1CE4E9E100F3FBE6 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = ImageBrowserAppearance/English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		533D83731CE4E9E700F3FBE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ImageBrowserAppearance/Info.plist; sourceTree = "<group>"; };
+		538A7A331CE4E86100BD6C9E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ImageBrowserAppearance/Images.xcassets; sourceTree = "<group>"; };
+		53A2C82C1CE50AA200C11072 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = English; path = ImageBrowserAppearance/English.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* ImageBrowserAppearance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageBrowserAppearance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4E55E217A1FD4800A6AF34 /* ImageBrowserAppearance.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ImageBrowserAppearance.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				533D83631CE4E9CD00F3FBE6 /* ImageBrowserController.h */,
+				533D83641CE4E9CD00F3FBE6 /* ImageBrowserController.m */,
+				533D83651CE4E9CD00F3FBE6 /* ImageBrowserView.h */,
+				533D83661CE4E9CD00F3FBE6 /* ImageBrowserView.m */,
+				533D835F1CE4E9CD00F3FBE6 /* ImageBrowserBackgroundLayer.h */,
+				533D83601CE4E9CD00F3FBE6 /* ImageBrowserBackgroundLayer.m */,
+				533D83611CE4E9CD00F3FBE6 /* ImageBrowserCell.h */,
+				533D83621CE4E9CD00F3FBE6 /* ImageBrowserCell.m */,
+				533D83671CE4E9CD00F3FBE6 /* main.m */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* ImageBrowserAppearance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* image-browser */ = {
+			isa = PBXGroup;
+			children = (
+				5338A1391CE3B083007946B9 /* ReadMe.md */,
+				080E96DDFE201D6D7F000001 /* Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "image-browser";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				533D83731CE4E9E700F3FBE6 /* Info.plist */,
+				533D836D1CE4E9E100F3FBE6 /* InfoPlist.strings */,
+				53A2C82B1CE50AA200C11072 /* Main.storyboard */,
+				538A7A331CE4E86100BD6C9E /* Images.xcassets */,
+				AF4E55E217A1FD4800A6AF34 /* ImageBrowserAppearance.entitlements */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* ImageBrowserAppearance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ImageBrowserAppearance" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageBrowserAppearance;
+			productInstallPath = "$(HOME)/Applications";
+			productName = "image-browser";
+			productReference = 8D1107320486CEB800E47090 /* ImageBrowserAppearance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				TargetAttributes = {
+					8D1107260486CEB800E47090 = {
+						DevelopmentTeam = NRHHX365ZN;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "image-browser-appearance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* image-browser */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* ImageBrowserAppearance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538A7A341CE4E86100BD6C9E /* Images.xcassets in Resources */,
+				533D83711CE4E9E100F3FBE6 /* InfoPlist.strings in Resources */,
+				53A2C82D1CE50AA200C11072 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533D836C1CE4E9CD00F3FBE6 /* main.m in Sources */,
+				533D83691CE4E9CD00F3FBE6 /* ImageBrowserCell.m in Sources */,
+				533D836A1CE4E9CD00F3FBE6 /* ImageBrowserController.m in Sources */,
+				533D83681CE4E9CD00F3FBE6 /* ImageBrowserBackgroundLayer.m in Sources */,
+				533D836B1CE4E9CD00F3FBE6 /* ImageBrowserView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		533D836D1CE4E9E100F3FBE6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				533D836E1CE4E9E100F3FBE6 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		53A2C82B1CE50AA200C11072 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53A2C82C1CE50AA200C11072 /* English */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = ImageBrowserAppearance.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = NRHHX365ZN;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = ImageBrowserAppearance/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.AppleSampleCode.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = ImageBrowserAppearance;
+				PROVISIONING_PROFILE = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = ImageBrowserAppearance.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NRHHX365ZN;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = ImageBrowserAppearance/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.AppleSampleCode.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = ImageBrowserAppearance;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ImageBrowserAppearance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "image-browser-appearance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

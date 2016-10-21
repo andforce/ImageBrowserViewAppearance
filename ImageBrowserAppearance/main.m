@@ -1,0 +1,14 @@
+/*
+ Copyright (C) 2016 Apple Inc. All Rights Reserved.
+ See LICENSE.txt for this sample’s licensing information
+ 
+ Abstract:
+ IKImageBrowserView is a view that can display and browse images and movies. This sample code demonstrates how to use the view in a Cocoa Application.
+ */
+
+@import Cocoa;
+
+int main(int argc, char *argv[])
+{
+    return NSApplicationMain(argc,  (const char **) argv);
+}
